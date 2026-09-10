@@ -5,7 +5,7 @@ import { ArrowDown, ArrowRight, ChevronLeft, ChevronRight, Facebook, Instagram, 
 import { useEffect, useRef, useState } from 'react';
 
 const navItems = [
-  ['Ana Sayfa', '#top'], ['Hikâyemiz', '#hikaye'], ['Üst Kat', '#ust-kat'], ['Alt Kat', '#alt-kat'], ['Menü', '#menu'], ['Galeri', '#galeri'], ['İletişim', '#iletisim']
+  ['Ana Sayfa', '#top'], ['Hikâyemiz', '#hikaye'], ['Üst Kat', '#ust-kat'], ['Alt Kat', '#alt-kat'], ['Menü', '#menu'], ['İletişim', '#iletisim']
 ];
 
 const upper = [
@@ -213,11 +213,6 @@ export default function Site() {
               </div>
             </div>
           </Reveal>
-        </section>
-
-        <section className="section gallery" id="galeri">
-          <Reveal><div className="section-head"><div><div className="section-kicker">KAFE GALERİSİ · 19 FOTOĞRAF</div><h2>Luluwa Keyf'i<br /><em>yakından görün.</em></h2></div><p>Kafenin gerçek fotoğraflarını tek tip ölçüde ve temiz bir grid içinde topladık. Böylece sayfada her görsel aynı hizada duruyor; hiçbir fotoğraf ezilmiyor veya farklı boyutta görünmüyor.</p></div></Reveal>
-          <div className="cafe-grid">{[...upper, ...lower].map(([src, title, sub], i) => <Reveal key={`gallery-${src}`} delay={(i % 3) * 0.04}><div className="cafe-card"><div className="cafe-frame"><Image src={src} alt={`${title} — ${sub}`} fill sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw" /></div><div><span>{String(i + 1).padStart(2, '0')}</span><b>{title}</b></div></div></Reveal>)}</div>
         </section>
 
         <section className="contact" id="iletisim"><Image src="/images/upper-01.jpg" alt="Deniz manzarası" fill sizes="100vw" /><div className="contact-overlay" /><div className="contact-content"><Reveal><div className="section-kicker">BİZE ULAŞIN</div><h2>Denize karşı<br /><em>bir masa ayırın.</em></h2><div className="contact-grid"><a href="tel:+902268130877"><small>TELEFON</small><b><Phone size={15} /> 0226 813 08 77</b></a><div><small>ADRES</small><b><MapPin size={15} /> Rüstem Paşa Mah. Mihenk Sk. No:21/1<br />Merkez / Yalova</b></div><div><small>SAATLER</small><b>Her gün<br />08:00 — 01:00</b></div></div><div className="contact-map-wrap">
