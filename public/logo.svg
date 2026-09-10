@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180">
+  <g fill="none" stroke="#d9aa70" stroke-width="5" stroke-linecap="round">
+    <path d="M260 15v48M260 28c-18 8-27 23-29 40M260 28c18 8 27 23 29 40M260 41c-28 0-43 10-53 26M260 41c28 0 43 10 53 26"/>
+    <path d="M230 66c8 18 18 28 30 38M290 66c-8 18-18 28-30 38"/>
+  </g>
+  <text x="260" y="128" text-anchor="middle" fill="#f5f0e7" font-family="Georgia,serif" font-size="48" letter-spacing="7">LULUWA</text>
+  <text x="260" y="164" text-anchor="middle" fill="#d9aa70" font-family="Arial,sans-serif" font-size="19" letter-spacing="10">KEYF · YALOVA</text>
+</svg>
