@@ -24,3 +24,4 @@ Ardından `http://localhost:3000` adresini aç.
 - Üst kat: 9 fotoğraf
 - Alt kat: 10 yeni fotoğraf
 - Toplam galeri: 19 fotoğraf
+Luluwa Keyf web sitesi - GitHub/Vercel deployment
