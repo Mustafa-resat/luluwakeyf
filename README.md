@@ -20,7 +20,3 @@ npm run dev
 
 Ardından `http://localhost:3000` adresini aç.
 
-### Galeri
-- Üst kat: 9 fotoğraf
-- Alt kat: 10 yeni fotoğraf
-- Toplam galeri: 19 fotoğraf
